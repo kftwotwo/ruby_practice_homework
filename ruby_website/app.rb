@@ -24,12 +24,17 @@ get('/') do
 end
 
 get('/page2') do
-"<!DOCTYPE html>
-<html>
+  "<!DOCTYPE html>
+  <html>
+  <head>
+    <title>Hello Friend!</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+  </head>
 
+  <body>
+    <h1>Hello</h1>
+    <p><a herf='/'>Back</a></p>
 
-
-
-
-
+  </body>
+  </html>"
 end
