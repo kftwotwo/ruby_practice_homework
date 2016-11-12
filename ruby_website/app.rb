@@ -1,5 +1,4 @@
 require('sinatra')
-require('sinatra/reloader')
 
 get('/') do
   "<!DOCTYPE html>
@@ -18,7 +17,7 @@ get('/') do
     <p>Looking forward to seeing you soon. I'll bring you back a souvenir. </p>
     <p>Cheers,</p>
     <p>Travel Enthusiast Jane</p>
-    <p><a herf='/page2'>Click me!!!</a></p>
+    <p><a href='/page2'>Click me!!!</a></p>
 
   </body>
   </html>"
@@ -34,7 +33,7 @@ get('/page2') do
 
   <body>
     <h1>Hello</h1>
-    <p><a herf='/'>Back</a></p>
+    <p><a href='/' >Back</a></p>
 
   </body>
   </html>"
