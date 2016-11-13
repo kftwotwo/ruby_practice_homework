@@ -2,6 +2,8 @@ require('sinatra')
 require('sinatra/reloader')
 
 get('/') do
+  @friend = "Chance"
+  @sender = "Kevin"
   erb(:letter)
 end
 
